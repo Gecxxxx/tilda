@@ -1,0 +1,10 @@
+{
+  "name": "vetratoria-wingfoil-article",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Адаптивная журнальная статья о вингфойле в Дахабе",
+  "scripts": {
+    "dev": "python3 -m http.server 4173",
+    "preview": "python3 -m http.server 4173"
+  }
+}

@@ -1,3 +1,23 @@
-# Tilda article assets
+# Vetratoria — статья о вингфойле
 
-Assets and production-ready HTML for Tilda custom HTML blocks.
+Самостоятельный адаптивный статический проект, собранный по исходному DOCX-журналу. Тексты остаются HTML-текстом, а фотографии подключаются отдельными оптимизированными WebP-файлами.
+
+## Структура
+
+```text
+index.html                     Семантическая разметка и SEO-метаданные
+assets/styles/main.css         Основной дизайн статьи
+assets/styles/responsive.css   Планшетная и мобильная адаптация
+assets/scripts/main.js         Неблокирующая загрузка фотографий
+assets/images/*.webp           34 фотографии из исходного документа
+```
+
+## Локальный запуск
+
+```bash
+npm run dev
+```
+
+Затем откройте `http://localhost:4173`.
+
+Сборщик и зависимости не требуются: проект можно публиковать на GitHub Pages, Cloudflare Pages, Vercel или любом статическом хостинге.
